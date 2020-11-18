@@ -27,7 +27,7 @@ function dataReportStatus(data) {
     document.getElementById("ans").innerHTML = result;
 }
 
-function search_func() {
+function search_func(data) {
     var search_result = '</div><br><div class="row">';
     var count = 0;
     keyword = document.getElementById("search").value;
